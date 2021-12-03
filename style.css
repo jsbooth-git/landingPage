@@ -40,7 +40,8 @@ a {
 }
 
 .topContent h2 {
-  font-size: 6vw;
+  font-size: 4vw;
+  margin-bottom: 10px;
 }
 
 .topContent div {
@@ -48,6 +49,7 @@ a {
   padding-right: 1vw;
   width: 40vw;
   word-wrap: normal;
+  color: #f9faf8;
 }
 
 button {
@@ -57,5 +59,6 @@ button {
 .topContent figure {
   background-color: grey;
   padding: 10px;
-  color: white;
+  color: #f9faf8;
+  width: 40vw;
 }
