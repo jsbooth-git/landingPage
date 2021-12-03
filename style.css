@@ -13,7 +13,7 @@ header {
   color: #f9faf8;
 }
 
-header :: h1 {
+header h1 {
   font-weight: bolder;
 }
 
@@ -30,6 +30,32 @@ a {
 
 .topContent {
   background-color: #1f2937;
-  padding-left: 10vw;
+  padding-left: 1vw;
   padding-right: 10vw;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.topContent h2 {
+  font-size: 6vw;
+}
+
+.topContent div {
+  padding-left: 9vw;
+  padding-right: 1vw;
+  width: 40vw;
+  word-wrap: normal;
+}
+
+button {
+  margin-top: 15px;
+}
+
+.topContent figure {
+  background-color: grey;
+  padding: 10px;
+  color: white;
 }
