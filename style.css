@@ -64,16 +64,18 @@ header h1 {
 }
 
 .topContent figure {
+  display: flex;
   background-color: grey;
   color: #f9faf8;
   width: 40vw;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .randomContent {
   margin-top: 1vw;
   margin-bottom: 1vw;
-  padding: 50px;
+  padding: 30px;
 }
 
 .randomContent h3 {
@@ -96,17 +98,19 @@ header h1 {
   align-items: center;
   overflow: normal;
   padding: 0.5vw;
+  min-width: none;
+  width: 4vw;
 }
 
 .randomContent p {
   padding: 18px;
   text-align: center;
-  width: 15vw;
+  width: 14vw;
 }
 
 .randomCards {
-  width: 15vw;
-  height: 15vw;
+  width: 13vw;
+  height: 13vw;
   border-style: solid;
   border-color: #3882f6;
   border-radius: 20px;
